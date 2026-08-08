@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>My Resume</title>
+  <meta charset="utf-8"></meta>
   <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
@@ -15,16 +16,20 @@
       </nav>
     </header>
     <main>
+      <h1>Josh Parker Resume</h1>
     <section>
     </section>
+    <hr />
     <section>
       <h2>Experience</h2>
       <ul>
       </ul>
     </section>
+    <hr />
     <section>
       <h2>Skills</h2>
       <table>
+        <caption>Look upon my skills ye Mighty and despair</caption>
         <thead>
           <tr>
             <td>Programming</td>
@@ -83,6 +88,8 @@
     <script>
       const datediv = document.querySelector("footer > div");
       datediv.textContent = new Date();
+      const tabledata = document.querySelectorAll("td");
+      tabledata.forEach((e,i) => e.style.setProperty("background", `hsl(${(i / tabledata.length) * 360}deg 50% 50%)`));
     </script>
 </body>
 </html>

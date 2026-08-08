@@ -3,10 +3,21 @@ main {
 }
 
 h1 {
+  text-align: center;
   color: chartreuse;
 }
 
 header,footer {
   border: solid black 1px;
   padding: 0.5em;
+}
+
+thead td {
+  font-weight: bolder;
+}
+
+table td {
+  text-align: center;
+  background: hsl(30deg 50% 50% / 25%);
+  padding: 0.4em 0.8em;
 }

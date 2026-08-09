@@ -21,3 +21,15 @@ table td {
   background: hsl(30deg 50% 50% / 25%);
   padding: 0.4em 0.8em;
 }
+
+footer {
+  background: black;
+}
+
+.footer-date {
+  font-family: cursive;
+  color: white;
+  text-shadow: 0 0 7px hsl(315deg 100% 90%), 0 0 11px hsl(313deg 100% 70%), 0 0 15px hsl(311deg 100% 50%), 0 0 19px hsl(309deg 100% 30%);
+}
+  
+

@@ -82,11 +82,11 @@
     </section>
     </main>
     <footer>
-      <div>
+      <div class="footer-date">
       </div>
     </footer>
     <script>
-      const datediv = document.querySelector("footer > div");
+      const datediv = document.querySelector("footer > div.footer-date");
       datediv.textContent = new Date();
       const tabledata = document.querySelectorAll("td");
       tabledata.forEach((e,i) => e.style.setProperty("background", `hsl(${(i / tabledata.length) * 360}deg 50% 50%)`));

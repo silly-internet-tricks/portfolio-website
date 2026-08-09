@@ -15,6 +15,49 @@
       </ul>
     </nav>
   </header>
+  <main>
+    <form action="https://wp.zybooks.com/form-viewer.php">
+      <label for="first-name">First Name</label>
+      <input type="text" name="first-name" id="first-name" placeholder="First Name" />
+      <br />
+      <label for="last-name">Last Name</label>
+      <input type="text" name="last-name" id="last-name" placeholder="Last Name" />
+      <br />
+      <label for="company-name">Company Name</label>
+      <input type="text" name="company-name" id="company-name" placeholder="Company Name" />
+      <br />
+      <label for="email-address">Email Address</label>
+      <input type="email" name="email-address" id="email-address" placeholder="Email Address" />
+      <br />
+      <label for="phone-number">Phone Number</label>
+      <input type="tel" name="phone-number" id="phone-number" placeholder="Phone Number" />
+      <br />
+      <label for="message">Message</label>
+      <textarea name="message" id="message">👽 message 👽</textarea>
+
+      <fieldset>
+        <legend>Best Contact Time</legend>
+        <label for="contact-am">A.M.</label>
+        <input type="radio" name="contact" id="contact-am" value="A.M." />
+        <br />
+        <label for="contact-pm">P.M.</label>
+        <input type="radio" name="contact" id="contact-pm" value="P.M." />
+        <br />
+        <label for="contact-any">Anytime</label>
+        <input type="radio" name="contact" id="contact-any" value="Anytime" />
+        <br />
+      </fieldset>
+      <label for="contact-method">Best Contact Method</label>
+      <select name="contact-method" id="contact-method">
+        <option value="">--Please choose an option--</option>
+        <option value="phone">Phone</option>
+        <option value="email">Email</option>
+        <option value="text">Text</option>
+      </select>
+      <br />
+      <label for="submit">Submit</label><input type="submit" />
+    </form>
+  </main>
   <footer>
     <div></div>
   </footer>

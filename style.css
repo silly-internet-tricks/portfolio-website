@@ -20,10 +20,15 @@ main {
 h1 {
   text-align: center;
   color: chartreuse;
-  text-shadow: 0 0 7px hsl(315deg 100% 10%), 0 0 11px hsl(313deg 100% 30%), 0 0 15px hsl(311deg 100% 50%), 0 0 19px hsl(309deg 100% 70%);
+  text-shadow:
+    0 0 7px hsl(315deg 100% 10%),
+    0 0 11px hsl(313deg 100% 30%),
+    0 0 15px hsl(311deg 100% 50%),
+    0 0 19px hsl(309deg 100% 70%);
 }
 
-header,footer {
+header,
+footer {
   border-radius: 0.3em;
   border: solid black 1px;
   padding: 0.5em;
@@ -39,14 +44,19 @@ table td {
   padding: 0.4em 0.8em;
 }
 
-footer, footer div {
+footer,
+footer div {
   background: black;
 }
 
 .footer-date {
   font-family: cursive;
   color: white;
-  text-shadow: 0 0 7px hsl(315deg 100% 90%), 0 0 11px hsl(313deg 100% 70%), 0 0 15px hsl(311deg 100% 50%), 0 0 19px hsl(309deg 100% 30%);
+  text-shadow:
+    0 0 7px hsl(315deg 100% 90%),
+    0 0 11px hsl(313deg 100% 70%),
+    0 0 15px hsl(311deg 100% 50%),
+    0 0 19px hsl(309deg 100% 30%);
 }
 
 #message {
@@ -65,4 +75,3 @@ tr:nth-child(even) p {
   background-color: hsl(225deg 70% 70%);
   font-family: cursive;
 }
-

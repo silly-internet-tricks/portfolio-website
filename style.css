@@ -57,6 +57,7 @@ footer div {
 .footer-date {
   font-family: cursive;
   color: white;
+  margin-left: 1.5em;
   text-shadow:
     0 0 7px hsl(315deg 100% 90%),
     0 0 11px hsl(313deg 100% 70%),

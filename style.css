@@ -32,6 +32,14 @@ h1 {
     0 0 19px hsl(309deg 100% 70%);
 }
 
+.cute {
+  text-shadow:
+    0 0 7px hsl(340deg 100% 30%),
+    0 0 11px hsl(338deg 100% 40%),
+    0 0 15px hsl(336deg 100% 60%),
+    0 0 19px hsl(334deg 100% 70%);
+}
+
 header,
 footer {
   border-radius: 0.3em;

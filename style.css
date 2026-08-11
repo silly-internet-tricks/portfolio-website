@@ -3,6 +3,11 @@
   background-color: hsl(20 23% 92%);
 }
 
+mark,
+mark > span {
+  background-color: hsl(300deg 100% 65% / 50%);
+}
+
 caption {
   font-style: italic;
 }
